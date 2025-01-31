@@ -3,7 +3,7 @@
 *.tmp
 
 # Wyklucz katalog node_modules
-node_modules/
+# node_modules/
 
 # Wyklucz pliki lock
 npm-debug.log*
@@ -28,4 +28,8 @@ Thumbs.db
 
 # Wyklucz pliki i katalogi specyficzne dla IDE
 .vscode/
+
+# Wyklucz pozostale pliki i foldery
+create_structure.js
+design_project.jpg
 
