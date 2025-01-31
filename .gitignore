@@ -1,0 +1,31 @@
+# Wyklucz pliki tymczasowe i logi
+*.log
+*.tmp
+
+# Wyklucz katalog node_modules
+node_modules/
+
+# Wyklucz pliki lock
+npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+
+# Wyklucz katalog dist (jeśli tworzysz dystrybucje)
+# dist/
+
+# Wyklucz folder z raportami testów
+# coverage/
+
+# Wyklucz wyniki budowy Gulp
+dist/
+
+# Wyklucz pliki konfiguracyjne środowiska
+# .env
+
+# Wyklucz pliki systemowe
+.DS_Store
+Thumbs.db
+
+# Wyklucz pliki i katalogi specyficzne dla IDE
+.vscode/
+
