@@ -1,0 +1,16 @@
+// ----------------------------------General layout styles-------------------------//
+//________________________________________________________________________________//
+@use '../core/variables' as *;
+
+.container {
+	margin: 0 auto;
+	padding: 0 $margin-center-small;
+	width: 100%;
+	max-width: 1200px;
+}
+
+nav, header, section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

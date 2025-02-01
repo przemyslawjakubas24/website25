@@ -1,8 +1,9 @@
+// ----------------------Header-----------------------//
+//___________________________________________________//
+@use '../core/variables' as *;
+
 header {
-    background: green;
+    background: $secondary-color;
     width: 100%;
-    height: 50vh;
-    h1 {
-        color: red;
-    }
+    height: 500px;
 }
